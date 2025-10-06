@@ -20,6 +20,6 @@ public class Student {
     String name; //student name
 
     String address; // pour commit sur la 2eme branch student-management
-    Double percentage;
+    Double percentage; //this change is in student-management
 
 }
