@@ -18,8 +18,8 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.AUTO)
     Integer rollNumber;
     String name; //student name
-    
-    String address;
+
+    String address; // pour commit sur la 2eme branch student-management
     Double percentage;
 
 }
