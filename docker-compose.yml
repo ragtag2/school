@@ -15,7 +15,7 @@ services:
   app-timesheet:
     depends_on:
       - mysql-db
-    image: mouradhassini/timesheet-devops:1.0.0
+    image: ragtag2/school-app:latest
     # If you want to build locally instead of using DockerHub image:
     # build: .
     restart: on-failure
