@@ -1,4 +1,6 @@
 FROM adoptopenjdk/openjdk8:latest
 EXPOSE 9093
-ADD target/timesheet-devops-1.0.jar timesheet-devops-1.0.jar
-CMD ["java", "-jar", "timesheet-devops-1.0.jar"]
+
+COPY target/school-1.0.0.jar app.jar
+
+CMD ["java", "-jar", "app.jar"]
